@@ -98,11 +98,6 @@ void juego::dibujar()
     else
         frame_actual.x=0;
 
-    for(int i = 0; i < 4; i++)
-    {
-        ventana1->draw(*sprite[i]);
-    }
-
 
     int aleatorio;
     aleatorio = rand()% 400 + 50 ;
